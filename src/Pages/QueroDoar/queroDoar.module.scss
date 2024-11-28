@@ -1,0 +1,58 @@
+.principal {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.container {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+form {
+    height: 60vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 2px rgba(0, 86, 149, 1);
+    border-radius: 15px;
+
+    div {
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: rgba(0, 86, 149, 1);
+    }
+
+    input {
+        border: solid 2px rgba(0, 86, 149, 1);
+        width: 22vw;
+        height: 5vh;
+        border-radius: 10px;
+        outline: none;
+        padding-left: 20px;
+
+
+
+    }
+
+}
+
+input:nth-child(6) {
+    height: 7vh;
+    width: 10vw;
+    color: #ffff;
+    background-color: rgba(0, 86, 149, 1);
+    cursor: pointer;
+}

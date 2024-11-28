@@ -1,0 +1,31 @@
+.boxFooter {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    color: #ffff;
+    background-color: rgba(0, 86, 149, 1);
+    display: flex;
+    
+
+    nav {
+        width: 18vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 50px;
+
+    }
+
+}
+
+.boxEnd{
+
+    height: 9.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#ffff;
+    background-color: rgba(35, 32, 32, 1);
+}
