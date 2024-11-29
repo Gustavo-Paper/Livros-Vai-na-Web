@@ -10,7 +10,7 @@ export default function QueroDoar() {
 
                 <form action="">
                     <div>
-                        <img src={Vector} alt="" />
+                        <img src={Vector} alt="Imagem de um livro" />
                         <h3>Informações do Livro</h3>
                     </div>
 
