@@ -1,5 +1,6 @@
 .boxFooter {
     height: 20vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,25 +8,61 @@
     color: #ffff;
     background-color: rgba(0, 86, 149, 1);
     display: flex;
-    
+
 
     nav {
-        width: 18vw;
+        width: 25vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin-right: 50px;
+        
 
     }
 
 }
 
-.boxEnd{
+.boxEnd {
 
     height: 9.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#ffff;
+    color: #ffff;
     background-color: rgba(35, 32, 32, 1);
+}
+
+@media (max-with:1000px) {
+    .boxFooter {
+
+        nav {
+            width: 220px;
+border:solid w
+        }
+    }
+
+}
+
+@media (max-width:479px) {
+    .boxFooter {
+
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        nav {
+            width: 80%;
+          
+        }
+    }
+
+    .boxEnd {
+
+    
+
+        p {
+            text-align: center;
+            width: 80vw;
+        }
+
+    }
 }

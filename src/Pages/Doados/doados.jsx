@@ -10,9 +10,9 @@ export default function doados() {
             <section className={S.livrosDoados}>
 
                 <article>
-                    <a href="#"><img src={Protagonista} alt="Imagem do livro O Protagonista" /></a>
+                    <a href="#"><img src={Protagonista} alt="Imagem do livro; O Protagonista" /></a>
 
-                    <h4>protagonista</h4>
+                    <h3>protagonista</h3>
                     <h4>Susanne Andrade</h4>
                     <h4>Ficção</h4>
 

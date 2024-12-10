@@ -11,7 +11,7 @@
     width: 30%;
     justify-content: space-around;
     align-items: center;
-    
+
 
     img {
         width: 20%;
@@ -56,25 +56,101 @@
         border: none;
         width: 60%;
         height: 5vh;
-        color:#fff; 
+        color: #fff;
         outline: none;
         font-size: 15px;
-    
+
         &::placeholder {
-          color: #fff;
-          font-size: 20px;
+            color: #fff;
+            font-size: 20px;
         }
-      }
-    
-      button {
+    }
+
+    button {
         background-color: transparent;
         border: none;
         cursor: pointer;
 
-        img{
+        img {
             margin-top: 4px;
         }
-      }
+    }
 
 }
 
+@media (max-width: 1134px) {
+
+    .navHeader {
+
+        font-size: 1.7vw;
+
+    }
+
+    .barraDeBusca {
+
+        width: 18vw;
+
+        input {
+            &::placeholder {
+                font-size: 1.2vw;
+            }
+        }
+    }
+
+
+    .logoHeader {
+        width: 35vw;
+
+        img {
+            height: 10vh;
+        }
+
+    }
+
+
+}
+
+@media (max-width: 979px) {
+    .header {
+
+        flex-direction: column;
+        height: 25vh;
+
+        justify-content: space-evenly;
+
+    }
+
+    .logoHeader {
+
+        h1 {
+            font-size: 3vw;
+        }
+
+    }
+
+    .navHeader {
+
+        width: 100%;
+
+
+    }
+
+    .barraDeBusca {
+
+        display: none;
+    }
+
+
+
+}
+
+;
+
+@media(max-width:370px) {
+
+    .navHeader{
+        width: 85%;
+        font-size: 18px;
+        
+    }
+}
