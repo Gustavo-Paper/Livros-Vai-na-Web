@@ -60,6 +60,22 @@
 
 }
 
+@media (max-width: 1000px){
+    article {
+        width: 230px;
+        height: 38vh;
+
+        
+       p{
+       
+        font-size: 20px;
+       
+       
+       }
+    }
+
+}
+
 @media (max-width:780px) {
 
     .banner {
@@ -74,13 +90,22 @@
         }
     }
 
-    article {
-        width: 230px;
-        height: 38vh;
+    .boxCard {
+        
+        
+       article{
 
+        
         p {
-            font-size: 14px;
+            
+            height: 15vh;
+           
+           
         }
+
+       }
+
+       
     }
 
 }
@@ -88,7 +113,7 @@
 
 
 
-@media (max-width:487px) {
+@media (max-width:500px) {
     .DevoDoar {
 
         height: 150vh;
@@ -97,8 +122,13 @@
         flex-direction: column;
         text-align: center;
 
-        
-        
+        h2 {
+
+            width: 70vw;
+            text-align: center;
+        }
+
+
     }
 
     .boxCard {
@@ -109,20 +139,20 @@
         height: 130vh;
         gap: 8px;
 
-        article{
-            width: 70%;
+        article {
+            width: 90%;
 
-            img{
+            img {
                 height: 10vh;
-                
+
             }
 
-            p{
-                font-size: 16px;
+            p {
+                font-size: 20px;
             }
         }
 
-      
+
 
     }
 }

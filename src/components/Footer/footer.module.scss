@@ -16,7 +16,8 @@
         align-items: center;
         justify-content: space-between;
         margin-right: 50px;
-        
+
+
 
     }
 
@@ -32,32 +33,25 @@
     background-color: rgba(35, 32, 32, 1);
 }
 
-@media (max-with:1000px) {
-    .boxFooter {
 
-        nav {
-            width: 220px;
-border:solid w
-        }
-    }
 
-}
-
-@media (max-width:479px) {
+@media (max-width:500px) {
     .boxFooter {
 
         flex-direction: column;
         justify-content: space-evenly;
 
         nav {
-            width: 80%;
-          
+            width: 80vw;
+
+
+
         }
     }
 
     .boxEnd {
 
-    
+
 
         p {
             text-align: center;
@@ -65,4 +59,34 @@ border:solid w
         }
 
     }
+}
+
+
+@media (max-width:780px) {
+
+    .boxFooter {
+
+        nav {
+
+            width: 45vw;
+
+
+        }
+    }
+
+}
+
+
+@media (max-width:360px) {
+
+    .boxFooter {
+       
+        nav {
+
+            width: 100%;
+
+          
+        }
+    }
+
 }
