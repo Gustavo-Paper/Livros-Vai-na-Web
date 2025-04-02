@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-   
+
 
     h2 {
 
@@ -24,7 +24,7 @@
         justify-content: center;
         min-height: 75vh;
         width: 70vw;
-       
+
 
         article {
 
@@ -38,7 +38,11 @@
             border: solid 2px rgba(0, 86, 149, 1);
             border-radius: 15px;
             margin-left: 20px;
-            
+            margin-bottom:10px ;
+
+            h3 {
+                text-align: center;
+            }
 
 
             h4 {
@@ -66,13 +70,13 @@
         justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
-        gap:10px;
+        gap: 10px;
         flex-wrap: wrap;
 
         article {
 
-            width: 15vw;
-            height: 40vh;
+            width: 35vw;
+            height: 30vh;
         }
     }
 
