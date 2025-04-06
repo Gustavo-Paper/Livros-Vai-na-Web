@@ -22,8 +22,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        min-height: 75vh;
-        width: 70vw;
+        flex-wrap: wrap;
+        min-height: 20vh;
+        width: 90vw;
+        margin-bottom: 8px;
+
 
 
         article {
@@ -33,12 +36,13 @@
             align-items: center;
             flex-direction: column;
             flex-wrap: wrap;
-            width: 30vw;
+            width: 25%;
             min-height: 50vh;
             border: solid 2px rgba(0, 86, 149, 1);
             border-radius: 15px;
             margin-left: 20px;
-            margin-bottom:10px ;
+            margin-bottom: 10px;
+            font-size: 20px;
 
             h3 {
                 text-align: center;
@@ -72,11 +76,34 @@
         flex-direction: column;
         gap: 10px;
         flex-wrap: wrap;
+        
 
         article {
 
-            width: 35vw;
+            width: 70%;
             height: 30vh;
+        }
+    }
+
+
+}
+
+
+@media (max-width: 550px) {
+
+    .livrosDoados {
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        flex-wrap: wrap;
+       
+        article {
+            border-radius: 50%;
+           
+            height: 40vh;
         }
     }
 
